@@ -1,12 +1,10 @@
 class Rurl < Formula
-  desc ""
+  desc "A curl-like tool but configured by json files`"
   homepage "https://github.com/loop0/rurl"
-  url "https://github.com/loop0/rurl/releases/download/v0.1.1/rurl_v0.1.1_x86_64-apple-darwin.tar.gz"
-  version "0.1.1"
-  sha256 "8a95df13bc5f87c3116a531df82aab4bde6a47aa20db4d9c1c28426a1ad3ab18"
+  url "https://github.com/loop0/rurl/releases/download/v0.1.2/rurl_v0.1.2_x86_64-apple-darwin.tar.gz"
+  version "0.1.2"
+  sha256 "71a4318ddb1b59578939fa79a6caf8edb85e0daf54ada3f7db40e381ec7e695a"
   license ""
-
-  depends_on "rust" => :build
 
   def install
     bin.install "rurl"
